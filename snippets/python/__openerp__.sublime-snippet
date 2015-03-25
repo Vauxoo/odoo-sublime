@@ -1,0 +1,34 @@
+<snippet>
+	<content><![CDATA[
+{
+    'name': '${1:modulename}',
+    'category': '${2:category}',
+    'summary': '${3:summary}',
+    'website': '${4:website},
+    'version': '1.0',
+    'description': """
+    	${5:description}
+        """,
+    'author': '${6:author}',
+    'depends': [
+        '${7:author}',
+    ],
+    'data': [
+
+    ],
+    'demo': [
+
+    ],
+    'qweb': [
+
+    ],
+    'installable': True,
+    'application': True,
+}
+
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>__openerp__</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.python</scope> 
+</snippet>
